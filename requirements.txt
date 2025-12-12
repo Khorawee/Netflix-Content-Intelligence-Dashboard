@@ -1,25 +1,14 @@
-# Core
-numpy==1.23.5
 pandas==2.0.3
-
-# Visualization
+numpy==1.23.5
+scikit-learn==1.2.2
+joblib==1.3.2
 matplotlib==3.7.1
 seaborn==0.12.2
-plotly==5.17.0
-
-# Machine Learning
-scikit-learn==1.2.2
-
-# Streamlit
-streamlit==1.26.0
-
-# TensorFlow (Windows-compatible)
-tensorflow==2.12.0
-tensorflow-hub==0.14.0
-protobuf==3.20.3
-
-# Utilities
 tqdm==4.66.1
-joblib==1.3.2
-beautifulsoup4==4.12.2
-nltk==3.8.1
+
+# optional higher-quality embeddings (recommended but optional)
+sentence-transformers==2.2.2
+torch==2.2.0
+
+# optional fast approx nearest-neighbor (recommended if using embeddings + large dataset)
+faiss-cpu==1.7.4
