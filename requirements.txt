@@ -1,14 +1,10 @@
-pandas==2.0.3
-numpy==1.23.5
-scikit-learn==1.2.2
-joblib==1.3.2
-matplotlib==3.7.1
-seaborn==0.12.2
-tqdm==4.66.1
-
-# optional higher-quality embeddings (recommended but optional)
-sentence-transformers==2.2.2
-torch==2.2.0
-
-# optional fast approx nearest-neighbor (recommended if using embeddings + large dataset)
-faiss-cpu==1.7.4
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+mlflow
+joblib
+tqdm
+jupyter
+openpyxl

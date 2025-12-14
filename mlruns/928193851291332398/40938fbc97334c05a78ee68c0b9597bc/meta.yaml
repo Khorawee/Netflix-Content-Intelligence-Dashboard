@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Netflix%20Recommendation%20System/mlruns/928193851291332398/40938fbc97334c05a78ee68c0b9597bc/artifacts
+end_time: 1765698136718
+entry_point_name: ''
+experiment_id: '928193851291332398'
+lifecycle_stage: active
+run_id: 40938fbc97334c05a78ee68c0b9597bc
+run_name: kindly-lamb-352
+run_uuid: 40938fbc97334c05a78ee68c0b9597bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765698129795
+status: 3
+tags: []
+user_id: KHORA
