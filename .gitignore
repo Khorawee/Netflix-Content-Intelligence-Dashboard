@@ -1,13 +1,8 @@
-# --- ละเว้น Environment และ Cache (ไม่ควรเอาขึ้น Git) ---
+# --- System & Environment (ไม่เอาทั้งโฟลเดอร์) ---
 venv/
 __pycache__/
-*.pyc
 .DS_Store
+*.pyc
 
-#
-# เพิ่มบรรทัดนี้ต่อท้ายไฟล์
-models/
+# --- Files ---
 *.pkl
-models/*.pkl
-# --- หมายเหตุ: โฟลเดอร์ที่ไม่ได้ระบุข้างบนจะถูกเก็บขึ้น Git ทั้งหมด ---
-# ได้แก่: models, outputs, src, config.yaml, README.md, requirements.txt

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Netflix%20Recommendation%20System/mlruns/463500351396476426/eb736bc20f9c45469fb744043b588ddd/artifacts
+end_time: 1766314457559
+entry_point_name: ''
+experiment_id: '463500351396476426'
+lifecycle_stage: active
+run_id: eb736bc20f9c45469fb744043b588ddd
+run_name: wistful-hen-444
+run_uuid: eb736bc20f9c45469fb744043b588ddd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766314453702
+status: 3
+tags: []
+user_id: KHORA
