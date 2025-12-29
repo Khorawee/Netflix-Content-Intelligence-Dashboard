@@ -1,10 +1,13 @@
-# 🎬 Netflix Recommendation System
+#  Netflix Recommendation System
 
-ระบบแนะนำหนัง/ซีรีส์ Netflix โดยใช้ TF-IDF และ Cosine Similarity
-
+โปรเจกต์ Data Science แบบ End-to-End ที่ครอบคลุมกระบวนการตั้งแต่การทำความสะอาดข้อมูล (Data Cleaning), การวิเคราะห์ข้อมูลเชิงสำรวจ (EDA), การสร้างระบบแนะนำคอนเทนต์ (Recommendation System) ด้วยเทคนิค NLP, และการเตรียมข้อมูลสำหรับทำ Dashboard บน Power BI
 ---
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange)
+![MLflow](https://img.shields.io/badge/Tracking-MLflow-blue)
+![Pandas](https://img.shields.io/badge/Data-Pandas-150458)
 
-## 📋 Requirements
+##  Requirements
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn mlflow joblib tqdm
 ```
@@ -50,10 +53,10 @@ python main.py
 ```
 
 **ผลลัพธ์:**
-- ✅ ทำความสะอาดข้อมูล
-- 📊 สร้างกราฟ 7 อันใน `outputs/plots/`
-- 💾 Export CSV สำหรับ Power BI
-- 🤖 สร้างโมเดล TF-IDF
+-  ทำความสะอาดข้อมูล
+-  สร้างกราฟ 7 อันใน `outputs/plots/`
+-  Export CSV สำหรับ Power BI
+-  สร้างโมเดล TF-IDF
 
 ### 3. ทดสอบโมเดล
 ```bash
@@ -76,7 +79,7 @@ python export_recs.py
 
 ---
 
-## 📂 Output Files
+##  Output Files
 ```
 outputs/
 ├── cleaned_netflix_powerbi.csv      # สำหรับ Power BI
@@ -98,36 +101,26 @@ outputs/
 
 ---
 
-## 💡 ตัวอย่างการใช้ใน Python
-```python
-from src.inference import load_model, get_recommendations
+##  Features
 
-# โหลดโมเดล
-df, sim, index_map = load_model()
-
-# แนะนำหนัง
-recs = get_recommendations("Stranger Things", df, sim, index_map, top_k=5)
-print(recs)
-```
+-  Data Cleaning & Preprocessing
+-  Exploratory Data Analysis (7 plots)
+-  TF-IDF Content-Based Recommendation
+-  Export สำหรับ Power BI
+-  MLflow Experiment Tracking
+-  Interactive Search & Recommendation
 
 ---
 
-## 📊 Power BI
+### PowerBI
+![PowerBI 1](./image/Screenshot%2025-12-29%20154040.png)
+![PowerBI 2](./image/Screenshot%2025-12-29%20154053.png)
 
-1. เปิด Power BI Desktop
-2. **Get Data** → **Text/CSV**
-3. เลือก `outputs/cleaned_netflix_powerbi.csv`
-4. สร้าง Dashboard
-
----
-
-## 🎯 Features
-
-- ✅ Data Cleaning & Preprocessing
-- 📊 Exploratory Data Analysis (7 plots)
-- 🤖 TF-IDF Content-Based Recommendation
-- 💾 Export สำหรับ Power BI
-- 📈 MLflow Experiment Tracking
-- 🔍 Interactive Search & Recommendation
-
----
+### Plots
+![Plots 1](./outputs/plots/content_added_trend.png)
+![Plots 2](./outputs/plots/content_type.png)
+![Plots 3](./outputs/plots/duration_distribution.png)
+![Plots 4](./outputs/plots/rating_distribution.png)
+![Plots 5](./outputs/plots/release_trend.png)
+![Plots 6](./outputs/plots/top_countries.png)
+![Plots 7](./outputs/plots/top_genres.png)
