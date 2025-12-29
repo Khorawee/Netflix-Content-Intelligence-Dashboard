@@ -113,11 +113,11 @@ outputs/
 ---
 
 ### PowerBI
-![PowerBI 1](./image/Screenshot%2025-12-29%20154040.png)
-![PowerBI 2](./image/Screenshot%2025-12-29%20154053.png)
+![PowerBI 1](./image/Screenshot%2025-12-29%154040.png)
+![PowerBI 2](./image/Screenshot%2025-12-29%154053.png)
 
 ### Plots
-![Plots 1](./outputs/plots/content_added_trend.png)
+![Plots 1](./outputs/plots/added_trend.png)
 ![Plots 2](./outputs/plots/content_type.png)
 ![Plots 3](./outputs/plots/duration_distribution.png)
 ![Plots 4](./outputs/plots/rating_distribution.png)
