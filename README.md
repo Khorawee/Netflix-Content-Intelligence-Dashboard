@@ -113,8 +113,8 @@ outputs/
 ---
 
 ### PowerBI
-![PowerBI 1](./image/Screenshot 2025-12-29 154040.png)
-![PowerBI 2](./image/Screenshot 2025-12-29 154053.png)
+![PowerBI 1](./image/powerbi_1.png)
+![PowerBI 2](./image/powerbi_2.png)
 
 ### Plots
 ![Plots 1](./outputs/plots/added_trend.png)
